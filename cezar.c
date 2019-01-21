@@ -12,6 +12,8 @@ char Dn(char x);
 
 int main (int argc, char *argv[]) {
 
+	printf("cezar - Caesar cipher translator\n");
+
 	switch (argc) {
 		case 1:
 			return 1;
@@ -32,9 +34,11 @@ int main (int argc, char *argv[]) {
 			}
 			break;
 		default:
-			printf("Invalid option\n");
+			printf("Invalid option");
 	}
 
+
+	printf("\n");
 	return 0;
 }
 
