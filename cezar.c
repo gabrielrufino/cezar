@@ -13,6 +13,7 @@ char Dn(char x);
 int main (int argc, char *argv[]) {
 
 	printf("cezar - Caesar cipher translator\n");
+	printf("--------------------------------\n\n");
 
 	switch (argc) {
 		case 1:
